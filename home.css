@@ -1,0 +1,150 @@
+body{
+	margin: 0px;
+	background: linear-gradient(180deg,#ffe6b3,#ffeecc,#fff7e6);
+	height: auto;
+}
+.center{background-color: #82b74b;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  list-style: none;
+  background: #405d27;
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+  align-items: center;
+  padding: 0.5em;
+  column-gap: 20px;
+}
+.navigation a {
+	align-items: center;
+	font-family: sans-serif ;
+  text-decoration: none;
+  font-size: 25px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: black;
+  color: #ececec;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: 0em;
+  transition: all 0.5s;
+  height: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 15px;
+}
+
+.navigation a:hover {transition: all 0.5s;
+	color: #405d27;
+	background-color: #82b74b;
+	font-size: 25px;
+}
+  
+
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  border-radius: 5px;
+}
+.size{
+	width: 10px;
+	height: 10px;
+}
+.white{
+color: white;
+}
+.nav-icon {
+	color: white;
+	background-color: #385170;
+	border-color: #385170;
+	border-style: solid;
+	text-align: center;
+	cursor: pointer;
+}
+
+}
+.container{
+	justify-content: space-evenly;
+	display: grid;
+	grid-gap: 40px;
+	grid-template-columns: auto auto;
+	grid-template-columns: repeat( auto-fill, minmax( 500px,1fr));
+
+}
+.box{text-align: center;
+
+}
+.shadow:hover{
+	transition: all 0.5s;
+box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+transform: rotate(-1deg);
+
+}
+.grid{
+	padding: 20px 40px;
+
+}
+
+.footer{
+	background-color: #385170;
+	margin-bottom: 0px;
+	color: white;
+	display: flex;
+	 flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer a{
+	color: white;
+	text-decoration: none;
+}
+
+.subscribe{
+	color: whitesmoke;
+	background-color: #9fd3c7;
+	padding: 4px 10px;
+	border-color:#385170;
+	padding-left: 10px;
+	border-style: solid;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.subscribe:hover{
+	background-color: #7cc3b3;
+}
+
+.bar2 {
+	font-size: 1em;
+	height: 38px;
+	width: 260px;
+  background-color: white;
+  margin: 6px 0;
+  border-style: solid;
+  border-color: #385170;
+  border-radius: 10px;
+  font-family: arial;
+  padding-left: 8px;
+  }
+  .text{
+  	font-family: arial , sans-serif;
+  	font-size: 1em;
+  	padding: 7px;
+  }
+  .arial{
+  	font-family: arial, sans-serif;
+  }
+.height{
+	line-height: 25px;
+}
