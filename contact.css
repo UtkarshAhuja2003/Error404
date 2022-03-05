@@ -1,8 +1,9 @@
 body{
 	margin: 0px;
+	height: auto ;
 	background: linear-gradient(180deg,#ffe6b3,#ffeecc,#fff7e6);
-	height: auto;
 }
+
 .center{background-color: #82b74b;
  display: block;
   margin-left: auto;
@@ -22,7 +23,7 @@ body{
   border-width: 0px;
   border-color: black;
   align-items: center;
-  padding: 0.5em;
+  padding: 0.3em;
   column-gap: 20px;
 }
 .navigation a {
@@ -43,60 +44,13 @@ body{
   padding-right: 20px;
   border-radius: 15px;
 }
-
-.navigation a:hover {transition: all 0.5s;
+.claas{ 	
+ }
+.claas a:hover {transition: all 0.5s;
 	color: #405d27;
 	background-color: #82b74b;
 	font-size: 25px;
 }
-  
-
-.bar {
-  width: 30px;
-  height: 3px;
-  background-color: white;
-  margin: 6px 0;
-  border-radius: 5px;
-}
-.size{
-	width: 10px;
-	height: 10px;
-}
-.white{
-color: white;
-}
-.nav-icon {
-	color: white;
-	background-color: #385170;
-	border-color: #385170;
-	border-style: solid;
-	text-align: center;
-	cursor: pointer;
-}
-
-}
-.container{
-	justify-content: space-evenly;
-	display: grid;
-	grid-gap: 40px;
-	grid-template-columns: auto auto;
-	grid-template-columns: repeat( auto-fill, minmax( 500px,1fr));
-
-}
-.box{text-align: center;
-
-}
-.shadow:hover{
-	transition: all 0.5s;
-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
-transform: rotate(-1deg);
-
-}
-.grid{
-	padding: 20px 40px;
-
-}
-
 .footer{
 	background-color: #82b74b;;
 	margin-bottom: 0px;
@@ -109,6 +63,15 @@ transform: rotate(-1deg);
 .footer a{
 	color: #c1946a;
 	text-decoration: none;
+}
+.subscribe1{
+	color: whitesmoke;
+	background-color: #405d27;
+	padding: 50px 10px;
+	border-color:#385170;
+	border-style: solid;
+	font-size: 20px;
+	border-radius: 5px;
 }
 
 .subscribe{
@@ -147,4 +110,8 @@ transform: rotate(-1deg);
   }
 .height{
 	line-height: 25px;
+}
+.logo a: hover{
+background-color: #405d27;
+
 }
